@@ -1,0 +1,6 @@
+.DS_STORE
+.vscode/
+authentication.js
+node_modules
+notes/
+**/*-tofo.md
