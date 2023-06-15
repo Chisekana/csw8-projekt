@@ -1,6 +1,16 @@
 .DS_STORE
-.vscode/
 authentication.js
 node_modules
 notes/
 **/*-tofo.md
+
+# Py files
+__pycache__/
+.mypy_cache/
+
+# VSC
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
