@@ -1,6 +1,43 @@
-.DS_STORE
-.vscode/
+
 authentication.js
 node_modules
 notes/
 **/*-tofo.md
+*.log
+
+#system specific files
+.DS_STORE
+Thumbs.db
+
+#Compiled binaries and build directories
+*.exe
+*.dll
+*.so
+*.dylib
+build/
+dist/
+
+# Python files
+*.pyc
+*.pyo
+__pycache__/
+.mypy_cache/
+
+# IDE & editor specific files
+.idea/
+.vscode/*
+*.sublime-project
+*.sublime-workspace
+*.pycharm
+*.pydevproject
+*.swp
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+#Virtual environment files
+venv/
+env/
+/.venv/
+/.env/
