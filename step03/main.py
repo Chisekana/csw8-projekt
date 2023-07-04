@@ -11,10 +11,41 @@ if __name__ == "__main__":
         "R" : "Restore data from file",
         "Q" : "Quit this program"
     }
+    restaurant_menu_list = [
+  { "name": "burrito",
+    "calories": 500,
+    "price": 12.90,
+    "is_vegetarian": "yes",
+    "spicy_level": 2
+  },
+  { "name": "rice bowl",
+    "calories": 400,
+    "price": 14.90,
+    "is_vegetarian": "no",
+    "spicy_level": 3
+  },
+  { "name": "fish",
+    "calories": 1600,
+    "price": 30.50,
+    "is_vegetarian": "no",
+    "spicy_level": 4
+  },
+  { "name": "margherita",
+    "calories": 800,
+    "price": 18.90,
+    "is_vegetarian": "no",
+    "spicy_level": 2
+  },
+  { "name": "kienyeji",
+    "calories": 250,
+    "price": 6.50,
+    "is_vegetarian": "yes",
+    "spicy_level": 1
+  }
+]
 
     while True:
         def print_main_menu(the_menu):
-            print("Welcome to Alinjos Restaurant!")
             opt = input("Choose from our Menu: ").upper()
 
             if opt == "Q" or opt == 'q':
