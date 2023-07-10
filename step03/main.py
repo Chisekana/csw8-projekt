@@ -43,7 +43,16 @@ if __name__ == "__main__":
     "spicy_level": 1
   }
 ]
-
+    list_menu = {
+        "A":"Complete menu",
+        "V":"Vegeterian dishes only"
+    }
+    spicy_scale_map = {
+        1: "Not spicy",
+        2: "Low key spicy",
+        3: "Hot",
+        4: "Diabolical",
+    }
     while True:
         def print_main_menu(the_menu):
             opt = input("Choose from our Menu: ").upper()
